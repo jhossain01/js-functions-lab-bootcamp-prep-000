@@ -4,16 +4,16 @@ function happyHolidays(string) {
 happyHolidays()
 
 function happyHolidaysTo(name) {
-  return 'Happy holidays, ${name}!'
+  return `Happy holidays, ${name}!`
 }
-happyHolidaysTo('you')
+happyHolidaysTo(`you`)
 
 function happyHolidayTo(holiday, name) {
-  return 'Happy ${holiday}, ${name}!'
+  return `Happy ${holiday}, ${name}!`
 }
-happyHolidayTo('Independence Day', 'you')
+happyHolidayTo(`Independence Day`, `you`)
 
 function holidayCountdown(holiday, days) {
-  return 'It\'s ${days} days until ${holiday}!'
+  return `It\'s ${days} days until ${holiday}!`
 }
-holidayCountdown("Mother's Day, 20")
+holidayCountdown(`Mother's Day, 20`)
